@@ -3,7 +3,7 @@ using ISP.Interface;
 
 namespace ISP.Impresoras
 {
-    public class MultiFunctionPrinter : Iprint, IScan
+    public class MultiFunctionPrinter : IPrint, IScan
     {
         public void Print(Document document)
         {

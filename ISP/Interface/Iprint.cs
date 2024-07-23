@@ -2,7 +2,7 @@
 
 namespace ISP.Interface
 {
-    public interface Iprint
+    public interface IPrint
     {
         void Print(Document document);
 

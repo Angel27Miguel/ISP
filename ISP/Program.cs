@@ -7,10 +7,10 @@ class Program
         {
             Document document = new Document { Name = "Documento1", Description = "Aplicando el Principio de segregación de interfaz (ISP)" };
 
-            Iprint simplePrinter = new SimplerPrinter();
+            IPrint simplePrinter = new SimplerPrinter();
             simplePrinter.Print(document);
 
-            Iprint multiFunctionPrinter = new MultiFunctionPrinter();
+            IPrint multiFunctionPrinter = new MultiFunctionPrinter();
             multiFunctionPrinter.Print(document);
 
             IScan multiFunctionScanner = new MultiFunctionPrinter();

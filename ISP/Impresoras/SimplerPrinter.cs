@@ -3,7 +3,7 @@ using ISP.Interface;
 
 namespace ISP.Impresoras
 {
-    public class SimplerPrinter : Iprint
+    public class SimplerPrinter : IPrint
     {
         public void Print(Document document)
         {
